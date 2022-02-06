@@ -1,4 +1,25 @@
 <h1>SocialApp</h1>
 
+<%# Input form for email address%>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control-sm" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<%# Input form for Password%>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Password</label>
+    <input type="email" class="form-control-sm" id="exampleFormControlInput1" placeholder="name@example.com">
+    <%# Login Button%>
+    </br>
+    <button type="button" class="btn btn-primary">Login</button>
+</div>
+
+
+<%# Register Button %>
+<div class="position-absolute top-75">
+    <p> New User? Click to <%= link_to "Register", home_register_path, class:"btn-link" %></p>
+    
+</div>    
 
 
